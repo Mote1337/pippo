@@ -34,10 +34,8 @@
     permanent: true
     immediate: true
     state: enabled
-
-      tasks:
-  - name: Ansible copy directory to the remote server
-    copy:
-      src: /var/lib/jenkins/secrets/initialAdminPassword
-      dest: /Users/mdtutorials2/Documents/Ansible/tmp
-      remote_src: yes
+- name: Ansible copy directory to the remote server
+  copy:
+    src: /var/lib/jenkins/secrets/initialAdminPassword
+    dest: /share
+    remote_src: yes
