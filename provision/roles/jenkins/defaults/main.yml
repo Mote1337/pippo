@@ -1,0 +1,4 @@
+---
+jenkins:
+  pre1: java-1.8.0-openjdk-devel
+  package: jenkins
