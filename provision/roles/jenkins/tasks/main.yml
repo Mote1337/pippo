@@ -34,8 +34,3 @@
     permanent: true
     immediate: true
     state: enabled
-- name: Ansible copy directory to the remote server
-  copy:
-    src: /var/lib/jenkins/secrets/initialAdminPassword
-    dest: /share
-    remote_src: yes

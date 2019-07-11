@@ -3,3 +3,10 @@
   package: 
     name: "{{ devops.git }}"
     state: present
+- name: Generate initialAdminPassword File
+  shell: curl 192.168.10.20:8080
+- name: Ansible copy directory to the remote server
+  copy:
+    src: /var/lib/jenkins/secrets/initialAdminPassword
+    dest: /share
+    remote_src: yes
