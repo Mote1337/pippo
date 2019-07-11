@@ -1,6 +1,7 @@
 # pippo
 
-clonare pippo 
+clonare pippo
+
 git clone https://github.com/Mote1337/pippo.git
 
 entrare nella cartella pippo e lanciare
