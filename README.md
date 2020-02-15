@@ -1,6 +1,9 @@
-# pippo
+# Pippo, Jenkins ready!
 
-clonare pippo
+Pippo è la nostra macchina di test per provare tutte le funzionalità di Jenkins in maniera pratica e veloce, su una macchina virtuale (VirtualBox) del proprio computer.
+
+Step 1)
+Clonare pippo
 
 git clone https://github.com/Mote1337/pippo.git
 
